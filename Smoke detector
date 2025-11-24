@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <ThingSpeak.h>
 
-const char *ssid = "VINAY 6925";
-const char *pass = "VINAY 6925";
+const char *ssid = "TEJAVAIDESH6358";
+const char *pass = "F89v56}8";
 
-long channelID = 2300119;
-const char writeAPIkey[] = "RS6URF374F43NAR0";
+long channelID = 3179099;
+const char writeAPIkey[] = "7CDWJKD5IX3B63I8";
 
 WiFiClient client;
 
@@ -50,5 +50,5 @@ void smokelevel() {
 
 void loop() {
   smokelevel();
-  delay(15000);  // Minimum delay for ThingSpeak
+  delay(3000);  // Minimum delay for ThingSpeak
 }
